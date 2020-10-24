@@ -10,35 +10,6 @@ public class EveningInTheKitchen {
 		
 		Fridge myFridge = new Fridge("SmallFridge");
 		
-//		System.out.println("Which nutrition do you want to put in the "+ myFridge.getName()+"?");
-//		
-//		Scanner input = new Scanner(System.in);
-//		
-//		String foodName = input.next();
-		
-//		Kitchenobject ding = new Kitchenobject("fjlsls") {
-//			public String testMeth( String s) {
-//				return s;
-//			}
-//		};
-//		
-//		Kitchenobject ding2 = new Kitchenobject("fjlsls") {
-//			public String testMeth( String s) {
-//				return s;
-//			}
-//		};
-//		
-//		Person me2 = new Person("Stephan", true);
-//		
-//		System.out.println("Klasse von ding ist: "+ ding.getClass());
-//		System.out.println("Klasse von ding ist: "+ ding2.getClass());
-//		System.out.println("Klasse von ding ist: "+ ding.getName());
-//		System.out.println("Klasse von ding ist: "+ ding2.getName());
-//		System.out.println("Klasse von ding ist: "+ me.getClass());
-//		System.out.println("Klasse von ding ist: "+ me2.getClass());
-//		
-//		System.out.println(me +" = "+ me2 +" -> "+ (me.getClass() == me2.getClass()));
-		
 		Food carrot = new Vegetable("Carrot", 108, 0.2, "A", "B", "C", "E");
 		
 		Food brot = new Vegetable();
