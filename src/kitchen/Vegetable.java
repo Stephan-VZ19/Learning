@@ -9,6 +9,10 @@ public class Vegetable extends Food{
 		this.vitamins = vitamins;
 	}
 	
+	public Vegetable( String name) {
+		super( name);
+	}
+
 	public Vegetable() {
 		super();
 	}

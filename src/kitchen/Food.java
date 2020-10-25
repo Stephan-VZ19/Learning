@@ -1,6 +1,6 @@
 package kitchen;
 
-public abstract class Food extends Kitchenobject{
+public class Food extends Kitchenobject{
 	
 	private double calories;
 	private double fat;
@@ -11,6 +11,10 @@ public abstract class Food extends Kitchenobject{
 		this.fat = fat;
 	}
 	
+	public Food( String name) {
+		super(name);
+	}
+
 	public Food() {
 		super();
 	}

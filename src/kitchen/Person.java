@@ -16,8 +16,6 @@ public class Person extends Kitchenobject implements Cooking{
 	@Override
 	public Food cook( Food a, Food b) {
 		Food meal = new Food("Mealwith"+a.getName()+b.getName(), a.getCalories() + b.getCalories(), a.getFat() + b.getFat());
-
-
 		return meal;
 	}
 
