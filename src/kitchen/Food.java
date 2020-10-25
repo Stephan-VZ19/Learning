@@ -9,12 +9,10 @@ public abstract class Food extends Kitchenobject{
 		super(name);
 		this.calories = calories;
 		this.fat = fat;
-		System.out.println("Hello from Food");
 	}
 	
 	public Food() {
 		super();
-		System.out.println("Hello from Food Default");
 	}
 	
 	public double getCalories() {
@@ -25,6 +23,7 @@ public abstract class Food extends Kitchenobject{
 		return fat;
 	}
 
-	public abstract void getFoodInfos();
-
+	public void getFoodInfos() {
+		System.out.println("This Food: "+ getName() +" has "+ calories +" calories and "+ fat +" fat. ");
+	}
 }

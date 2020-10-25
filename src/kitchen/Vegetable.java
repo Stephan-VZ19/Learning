@@ -7,12 +7,10 @@ public class Vegetable extends Food{
 	public Vegetable( String name, double calories, double fat, String... vitamins) { // varargs is an array!
 		super( name, calories, fat);
 		this.vitamins = vitamins;
-		System.out.println("Hello from Vegetable");
 	}
 	
 	public Vegetable() {
 		super();
-		System.out.println("Hello from Vegetable Default");
 	}
 	
 	public String[] getVitamins() {

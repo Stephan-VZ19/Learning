@@ -1,6 +1,6 @@
 package kitchen;
 
-public class Person extends Kitchenobject{
+public class Person extends Kitchenobject implements Cooking{
 	
 	public boolean canCook;
 	
@@ -11,6 +11,14 @@ public class Person extends Kitchenobject{
 	
 	public Person() {
 		super();
+	}
+
+	@Override
+	public Food cook( Food a, Food b) {
+		Food meal = new Food("Mealwith"+a.getName()+b.getName(), a.getCalories() + b.getCalories(), a.getFat() + b.getFat());
+
+
+		return meal;
 	}
 
 }

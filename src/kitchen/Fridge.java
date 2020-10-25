@@ -11,12 +11,10 @@ public class Fridge extends Kitchenobject implements Electric{
 	
 	public Fridge( String name) {
 		super( name);
-		System.out.println("Hello from Fridge");
 	}
 	
 	public Fridge() {
 		super();
-		System.out.println("Hello from Fridge Default");
 	}
 	
 	List<Food> contains = new ArrayList<Food>();
